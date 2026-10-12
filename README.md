@@ -280,7 +280,13 @@ Add exported report screenshots to an `images/` folder, for example:
 ### Product Performance
 
 ![Pizza Sales Product Performance](https://raw.githubusercontent.com/rohitkumartomar2000-eng/-Pizza-Sales-Analytics-Dashboard/main/images/WhatsApp%20Image%202026-10-12%20at%202.24.47%20PM.jpeg)
+
+### Order Analysis
+
+![Pizza Sales Order Analysis](https://raw.githubusercontent.com/rohitkumartomar2000-eng/-Pizza-Sales-Analytics-Dashboard/main/images/WhatsApp%20Image%202026-10-12%20at%202.25.07%20PM.jpeg)
+
 ##  Repository Structure
+
 
 ``` text
 pizza-sales-analytics/
