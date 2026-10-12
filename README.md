@@ -306,5 +306,3 @@ pizza-sales-analytics/
 
 ------------------------------------------------------------------------
 
-*Portfolio project demonstrating SQL analysis and interactive Power BI
-reporting.*
