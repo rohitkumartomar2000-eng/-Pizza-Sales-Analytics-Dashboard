@@ -1,24 +1,24 @@
-# 🍕 Pizza Sales Analytics Dashboard
+# Pizza Sales Analytics Dashboard
 
 An interactive **Power BI dashboard** built to analyze pizza sales,
 product performance, and order patterns. The report uses a dark theme
 with orange and yellow accents.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project explores: - Which pizzas generate the most revenue - Which
 pizzas sell the most units and which perform weakest - Revenue
 contribution by pizza category and size - Peak ordering hours and
 busiest days - Daily and monthly order trends
 
-## 🛠️ Tools Used
+##  Tools Used
 
 -   **Power BI** --- dashboard and data visualization
 -   **DAX** --- KPI measures and calculations
 -   **Power Query** --- data preparation and transformation
 -   **PostgreSQL / SQL** --- querying and sales analysis
 
-## 📁 Dashboard Pages
+##  Dashboard Pages
 
 ### 1. Overview
 
@@ -45,7 +45,7 @@ busiest days - Daily and monthly order trends
 -   Orders by day and hour matrix
 -   Peak order hour and peak order day
 
-## 🧮 SQL Analysis
+##  SQL Analysis
 
 The SQL script creates the `pizza_data` table and includes queries for
 sales KPIs, time trends, category/size contribution, and
@@ -254,19 +254,8 @@ ORDER BY total_order ASC
 LIMIT 5;
 ```
 
-## ▶️ How to Run
 
-1.  Open `SQL QUERY.sql` in pgAdmin or another PostgreSQL client.
-2.  Connect to the database you want to use.
-3.  Run the `CREATE TABLE` statement if the table does not already
-    exist.
-4.  Import the pizza sales dataset into `pizza_data`.
-5.  Run the analysis queries and compare their outputs with the Power BI
-    dashboard.
-6.  Open the `.pbix` file in Power BI Desktop to explore the interactive
-    report.
-
-## 🎛️ Interactive Features
+##  Interactive Features
 
 -   Slicers for order date, pizza category, pizza size, pizza name, and
     order day
@@ -274,13 +263,13 @@ LIMIT 5;
 -   Navigation between report pages
 -   Product rankings and time-based comparisons
 
-## 💡 Business Value
+##  Business Value
 
 The dashboard can help identify high-performing products, review
 weaker-selling pizzas, understand category and size contribution, and
 recognize peak ordering periods for operational planning.
 
-## 🖼️ Screenshots
+##  Screenshots
 
 Add exported report screenshots to an `images/` folder, for example:
 
@@ -291,7 +280,7 @@ images/
 └── order-analysis.png
 ```
 
-## 📂 Suggested Repository Structure
+##  Repository Structure
 
 ``` text
 pizza-sales-analytics/
@@ -304,19 +293,7 @@ pizza-sales-analytics/
     └── order-analysis.png
 ```
 
-## ⚠️ Validation Notes
-
--   KPI values change with slicer selections.
--   Confirm that order counts use the intended distinct order
-    identifier.
--   Keep the definition of **Average Pizzas per Order** consistent
-    across report pages.
--   Validate displayed results against the underlying dataset before
-    making business decisions.
--   Do not publish confidential or restricted data in a public
-    repository.
-
-## 👤 Author
+##  Author
 
 **Rohit Kumar**\
 *Data Analytics Portfolio*
