@@ -52,20 +52,20 @@ top/bottom-performing pizzas.
 
 ### Table Schema
 
-  Column                Description
-  --------------------- ----------------------
-  `pizza_id`            Pizza row identifier
-  `order_id`            Order identifier
-  `pizza_name_id`       Pizza product code
-  `quantity`            Quantity sold
-  `order_date`          Date of order
-  `order_time`          Time of order
-  `unit_price`          Price per pizza
-  `total_price`         Total line value
-  `pizza_size`          Pizza size
-  `pizza_category`      Pizza category
-  `pizza_ingredients`   Ingredient details
-  `pizza_name`          Pizza name
+| Column | Description |
+|---|---|
+| `pizza_id` | Pizza row identifier |
+| `order_id` | Order identifier |
+| `pizza_name_id` | Pizza product code |
+| `quantity` | Quantity sold |
+| `order_date` | Date of order |
+| `order_time` | Time of order |
+| `unit_price` | Price per pizza |
+| `total_price` | Total line value |
+| `pizza_size` | Pizza size |
+| `pizza_category` | Pizza category |
+| `pizza_ingredients` | Ingredient details |
+| `pizza_name` | Pizza name |
 
 ### SQL Queries
 
