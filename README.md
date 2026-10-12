@@ -276,6 +276,9 @@ Add exported report screenshots to an `images/` folder, for example:
 ``` text
 images/
 ├── overview.png
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rohitkumartomar2000-eng/-Pizza-Sales-Analytics-Dashboard/main/images/WhatsApp%20Image%202026-10-12%20at%202.24.30%20PM%20%281%29.jpeg" width="100%" alt="Pizza Sales Dashboard"/>
+</p>
 ├── product-performance.png
 └── order-analysis.png
 ```
